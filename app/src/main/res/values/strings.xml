@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">USabiEEE</string>
+    <string name="usernmae">Username</string>
+    <string name="quiz">QUIZ</string>
+    <string name="gp_calculator">GP Calculator</string>
 </resources>

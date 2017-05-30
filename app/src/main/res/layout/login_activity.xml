@@ -17,24 +17,27 @@
             android:src = "@drawable/logo"/>
 
         <EditText
+            android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Username"
+            android:text="@string/usernmae"
             android:layout_marginLeft="48dp"
             android:layout_marginRight="48dp"
             android:layout_marginBottom="48dp"/>
 
         <Button
+            android:id="@+id/quiz_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text = "QUIZ"
+            android:text = "@string/quiz"
             android:layout_marginLeft="48dp"
             android:layout_marginRight="48dp"/>
 
         <Button
+            android:id="@+id/calc_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text = "GP Calculator"
+            android:text = "@string/gp_calculator"
             android:layout_marginLeft="48dp"
             android:layout_marginRight="48dp"/>
 
