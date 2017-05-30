@@ -1,6 +1,34 @@
 <resources>
     <string name="app_name">USabiEEE</string>
-    <string name="usernmae">Username</string>
+    <string name="username">Username</string>
     <string name="quiz">QUIZ</string>
     <string name="gp_calculator">GP Calculator</string>
+    <string name="EEE451">EEE451 GRADE</string>
+    <string name="EEE453">EEE453 GRADE</string>
+    <string name="EEE481">EEE481 GRADE</string>
+    <string name="EEE471">EEE471 GRADE</string>
+    <string name="EEE473">EEE473 GRADE</string>
+    <string name="ELA401">ELA401 GRADE</string>
+    <string name="EEE431">EEE431 GRADE</string>
+    <string name="EEE433">EEE433 GRADE</string>
+    <string name="CED400">CED400 GRADE</string>
+    <string name="CourseTitle">Course Info</string>
+    <string-array name="Grades">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+    </string-array>
+    <string name="calculate">CALCULATE GP</string>
+    <string name="eee431Description">ELECTRICAL MACHINES 2\n This Course is 3units. It covers Synchronous Machines, Design of Transformers and Rotating Machines, also covers Alternators.\n Lecturer1-Engr Osaretin\nLecturer2-Engr Idiaghe</string>
+    <string name="eee433Description">ENERGY GENERATION, DISTRIBUTION AND UTILIZATION\n This Course is 3units. Scope covers Generation of Electrical Energy, its transmission over long distances and finally how it is utilized at the end point.\n Lecturer1-Engr Greg\n Lecturer2-Engr Emmanuel\n Lecturer3-Engr Onwah</string>
+    <string name="ela401Description">ENGINEERING LABORATORY 5\n This Course is 2units. Scope covers basic Experiments in Electrical Electronics both Power and Electronics oriented.\n Lecturer1-Engr Moses\n Lecturer2-Engr Abdul-Rahman\n Lecturer3-Engr Omoze\n Lecturer4-Engr Patrick</string>
+    <string name="eee451Description">CONTROL THEORY\n This course is 3units. Scope covers Introduction to Control Engineering, Stability, Frequency and Time responses, Steady state systems and modelling.\n Lecturer1-Engr Pat\n Lecturer2-Engr Moses\n Lecturer3-Engr Osaze</string>
+    <string name="eee453Description">INSTRUMENTATION\n This course is 3units. Scope covers Measurement and Instrumentation, basic Flow-meters, AC Bridges, Analog/Digital Instrumentation.\n Lecturer1-Engr Emma\n Lecturer2-Engr Moses\n Lecturer3-Engr Ero</string>
+    <string name="ced400Description">CENTER FOR ENTREPRENEURSHIP DEVELOPMENT\n This Course is 2units. Areas covered include Introduction to Business, SWOT analysis, Legalities of Business and General Entrepreneurial topics.\n Lecturer-Dr C.J Mgbame</string>
+    <string name="eee471Description">ELECTRONIC CIRCUITS 1\n This Course is 3units. Scope of course covers Transistors, Filters, Amplifiers and its varieties and general electronic circuits.\n Lecturer1-Engr Bello\n Lecturer2-Engr Akpekpe</string>
+    <string name="eee473Description">TELECOMMUNICATION PRINCIPLES 1\n This Course is 3units. Scope covers Transmission lines, Electromagnetic Propagations, Waveguides and Antennas.\n Lecturer1-Engr Ogbeide \n Lecturer2-Engr Omoze\n Lecturer3-Engr Otasowie</string>
+    <string name="eee481Description">ENGINEERING MATHEMATICS 5\n This Course is 3units. Scope covers Fourier Series and Fourier Transforms, Probability, Complex Integration and Differentiation and Laplace Transforms.\n Lecturer1-Engr Edosa\n Lecturer2-Engr Eguaile</string>
 </resources>
