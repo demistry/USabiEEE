@@ -29,7 +29,7 @@ public class Calculator extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculator);
         Intent loginIntent= getIntent();
-        name = loginIntent.getStringExtra("Name");//get name details from activity that called Calculator
+        name = loginIntent.getStringExtra("Username");//get name details from activity that called Calculator
         spinner1=(Spinner) findViewById(R.id.spinner1);
         String spin1 = String.valueOf(spinner1.getSelectedItem());
         spinner2=(Spinner) findViewById(R.id.spinner2);
