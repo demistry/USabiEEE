@@ -6,288 +6,302 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.ilenwabordavid.usabieee.Calculator">
-    <RelativeLayout
-        android:id="@+id/RelativeLayout1"
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        >
-        <TextView
-            android:id="@+id/eee431"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/EEE431"
-            android:textSize="16sp"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
-        <Spinner
-            android:id="@+id/spinner1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/eee431"
-            android:layout_marginStart="20dp"
-            android:entries="@array/Grades">
-        </Spinner>
-        <Button
-            android:id="@+id/button431"
-            android:layout_width="115dp"
-            android:layout_height="wrap_content"
-            android:text="@string/CourseTitle"
-            android:layout_marginEnd="6dp"
-            android:background="@drawable/button_shape"
-            android:layout_below="@id/spinner1"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/eee431"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EEE431"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/Grades">
+            </Spinner>
+
+            <Button
+                android:id="@+id/button431"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CourseTitle"
             />
-        <TextView
-            android:id="@+id/eee433"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/EEE433"
-            android:layout_marginStart="12dp"
-            android:layout_toEndOf="@id/eee431"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:textSize="16sp"/>
-        <Spinner
-            android:id="@+id/spinner2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/spinner1"
-            android:layout_below="@id/eee433"
-            android:layout_alignStart="@id/eee433"
-            android:layout_marginStart="20dp"
-            android:entries="@array/Grades">
-        </Spinner>
-        <Button
-            android:id="@+id/button433"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:text="@string/CourseTitle"
-            android:layout_marginEnd="6dp"
-            android:layout_below="@id/spinner2"
-            android:background="@drawable/button_shape"
-            android:layout_toEndOf="@id/button431"/>
-        <TextView
-            android:id="@+id/ela401"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/ELA401"
-            android:layout_marginStart="12dp"
-            android:layout_toEndOf="@id/eee433"
-            android:textSize="16sp"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:layout_alignParentEnd="true"/>
-        <Spinner
-            android:id="@+id/spinner3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/spinner2"
-            android:layout_below="@id/ela401"
-            android:layout_alignStart="@id/ela401"
-            android:layout_marginStart="20dp"
-            android:entries="@array/Grades"
-            >
-        </Spinner>
-        <Button
-            android:id="@+id/button401"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/CourseTitle"
-            android:layout_below="@id/spinner3"
-            android:background="@drawable/button_shape"
-            android:layout_toEndOf="@id/button433"
-            android:layout_alignParentEnd="true"/>
+        </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/RelativeLayout11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-    </RelativeLayout>
-    <RelativeLayout
-        android:id="@+id/RelativeLayout2"
+            <TextView
+                android:id="@+id/eee433"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EEE431"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/Grades">
+            </Spinner>
+
+            <Button
+                android:id="@+id/button433"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CourseTitle"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/RelativeLayout111"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/eee401"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ELA401"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/Grades">
+            </Spinner>
+
+            <Button
+                android:id="@+id/button401"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CourseTitle"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1231"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp">
-        <TextView
-            android:id="@+id/eee451"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/EEE451"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:textSize="16sp"/>
-        <Spinner
-            android:id="@+id/spinner4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/eee451"
-            android:layout_marginStart="20dp"
-            android:entries="@array/Grades">
-        </Spinner>
-        <Button
-            android:id="@+id/button451"
-            android:layout_width="115dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button_shape"
-            android:layout_marginEnd="6dp"
-            android:text="@string/CourseTitle"
-            android:layout_below="@id/spinner4"/>
-        <TextView
-            android:id="@+id/eee453"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/EEE453"
-            android:layout_marginStart="12dp"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:layout_toEndOf="@id/eee451"
-            android:textSize="16sp"/>
-        <Spinner
-            android:id="@+id/spinner5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/spinner4"
-            android:layout_below="@id/eee453"
-            android:layout_alignStart="@id/eee453"
-            android:layout_marginStart="20dp"
-            android:entries="@array/Grades">
-        </Spinner>
-        <Button
-            android:id="@+id/button453"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:text="@string/CourseTitle"
-            android:layout_marginEnd="6dp"
-            android:background="@drawable/button_shape"
-            android:layout_below="@id/spinner5"
-            android:layout_toEndOf="@id/button451"/>
-        <TextView
-            android:id="@+id/ced400"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/CED400"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:layout_marginStart="12dp"
-            android:layout_toEndOf="@id/eee453"
-            android:textSize="16sp"
-            android:layout_alignParentEnd="true"/>
-        <Spinner
-            android:id="@+id/spinner6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/spinner5"
-            android:layout_below="@id/ced400"
-            android:layout_alignStart="@id/ced400"
-            android:layout_marginStart="20dp"
-            android:entries="@array/Grades"
-            >
-        </Spinner>
-        <Button
-            android:id="@+id/button400"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/CourseTitle"
-            android:background="@drawable/button_shape"
-            android:layout_below="@id/spinner6"
-            android:layout_toEndOf="@id/button453"
-            android:layout_alignParentEnd="true"/>
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
 
+        <LinearLayout
+            android:id="@+id/RelativeLayout1231"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-    </RelativeLayout>
-    <RelativeLayout
-        android:id="@+id/RelativeLayout3"
+            <TextView
+                android:id="@+id/eee451"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EEE431"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/Grades">
+            </Spinner>
+
+            <Button
+                android:id="@+id/button451"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CourseTitle"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/RelativeLayout11cd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/eee453"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EEE431"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/Grades">
+            </Spinner>
+
+            <Button
+                android:id="@+id/button453"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CourseTitle"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/RelativeLayout111aw"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ced400"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CED400"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spinner6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/Grades">
+            </Spinner>
+
+            <Button
+                android:id="@+id/button400"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CourseTitle"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LineaurLayout1231"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp">
-        <TextView
-            android:id="@+id/eee471"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/EEE471"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:textSize="16sp"/>
-        <Spinner
-            android:id="@+id/spinner7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/eee471"
-            android:layout_marginStart="20dp"
-            android:entries="@array/Grades">
-        </Spinner>
-        <Button
-            android:id="@+id/button471"
-            android:layout_width="115dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="6dp"
-            android:text="@string/CourseTitle"
-            android:background="@drawable/button_shape"
-            android:layout_below="@id/spinner7"/>
-        <TextView
-            android:id="@+id/eee473"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/EEE473"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:layout_marginStart="12dp"
-            android:layout_toEndOf="@id/eee471"
-            android:textSize="16sp"/>
-        <Spinner
-            android:id="@+id/spinner8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/spinner7"
-            android:layout_below="@id/eee473"
-            android:layout_alignStart="@id/eee473"
-            android:layout_marginStart="20dp"
-            android:entries="@array/Grades">
-        </Spinner>
-        <Button
-            android:id="@+id/button473"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:text="@string/CourseTitle"
-            android:layout_marginEnd="6dp"
-            android:layout_below="@id/spinner8"
-            android:background="@drawable/button_shape"
-            android:layout_toEndOf="@id/button471"/>
-        <TextView
-            android:id="@+id/eee481"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/EEE481"
-            android:layout_marginStart="12dp"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:layout_toEndOf="@id/eee473"
-            android:textSize="16sp"
-            android:layout_alignParentEnd="true"/>
-        <Spinner
-            android:id="@+id/spinner9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/spinner8"
-            android:layout_below="@id/eee481"
-            android:layout_alignStart="@id/eee481"
-            android:layout_marginStart="20dp"
-            android:entries="@array/Grades"
-            >
-        </Spinner>
-        <Button
-            android:id="@+id/button481"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/CourseTitle"
-            android:layout_below="@id/spinner9"
-            android:background="@drawable/button_shape"
-            android:layout_toEndOf="@id/button473"
-            android:layout_alignParentEnd="true"/>
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="horizontal">
 
+        <LinearLayout
+            android:id="@+id/RelativeLayout12a31"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-    </RelativeLayout>
-    <RelativeLayout
-        android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/eee471"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EEE471"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spinner7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/Grades">
+            </Spinner>
+
+            <Button
+                android:id="@+id/button471"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CourseTitle"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/RelativeLayouat11cd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/eee473"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EEE473"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spinner8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/Grades">
+            </Spinner>
+
+            <Button
+                android:id="@+id/button473"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CourseTitle"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/RelativeLayout11a1aw"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/eee481"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EEE481"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spinner9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/Grades">
+            </Spinner>
+
+            <Button
+                android:id="@+id/button481"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CourseTitle"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonCalculateGP"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp">
-        <Button
-            android:id="@+id/buttonCalculateGP"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="32dp"
-            android:background="@drawable/button_shape"
-            android:text="@string/calculate"
-            />
-
-    </RelativeLayout>
+        android:layout_gravity="center_horizontal"
+        android:text="@string/calculate"
+        android:layout_marginTop="16dp"
+        />
 
 </LinearLayout>
