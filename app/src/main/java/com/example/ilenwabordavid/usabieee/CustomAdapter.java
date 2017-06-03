@@ -11,7 +11,6 @@ import java.util.List;
 
 
 public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder> {
-    private HashMap map;
     private List<HashMap<String,String>> data;
 
     public CustomAdapter(List<HashMap<String,String>> data){

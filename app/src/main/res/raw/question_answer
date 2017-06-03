@@ -7,7 +7,8 @@
         "a": "EEE453",
         "b": "EEE471",
         "c": "EEE473",
-        "d": "CED400"
+        "d": "CED400",
+        "correct_ans":"EEE471"
       }
     },
     {
@@ -17,7 +18,8 @@
         "a": "Charity",
         "b": "Osato",
         "c": "Ajoke",
-        "d": "Evelyn"
+        "d": "Evelyn",
+        "correct_ans":"Ajoke"
       }
     },
     {
@@ -27,67 +29,97 @@
         "a": "Small Paul",
         "b": "Kenny",
         "c": "Kelvin",
-        "d": "Progress"
+        "d": "Progress",
+        "correct_ans":"Progress"
       }
     },
     {
-          "q": "Which course was there general test failure despite the whole class copying each other?",
-          "ans": {
-            "a": "EEE453",
-            "b": "EEE471",
-            "c": "EEE473",
-            "d": "CED400"
-          }
-        },
-        {
-          "id":"1",
-          "q": "Which RCF female member of the class scored 0.5 out of 25 in EEE451 test?",
-          "ans": {
-            "a": "Charity",
-            "b": "Osato",
-            "c": "Ajoke",
-            "d": "Evelyn"
-          }
-        },
-        {
-          "id":"2",
-          "q": "Which student was not able to win at the polls despite a raucous support?",
-          "ans": {
-            "a": "Small Paul",
-            "b": "Kenny",
-            "c": "Kelvin",
-            "d": "Progress"
-          }
-        },
-        {
-              "q": "Which course was there general test failure despite the whole class copying each other?",
-              "ans": {
-                "a": "EEE453",
-                "b": "EEE471",
-                "c": "EEE473",
-                "d": "CED400"
-              }
-            },
-            {
-              "id":"1",
-              "q": "Which RCF female member of the class scored 0.5 out of 25 in EEE451 test?",
-              "ans": {
-                "a": "Charity",
-                "b": "Osato",
-                "c": "Ajoke",
-                "d": "Evelyn"
-              }
-            },
-            {
-              "id":"2",
-              "q": "Which student was not able to win at the polls despite a raucous support?",
-              "ans": {
-                "a": "Small Paul",
-                "b": "Kenny",
-                "c": "Kelvin",
-                "d": "Progress"
-              }
-            },
-
+      "id": "2",
+      "q": "Fill in the gap, the Satan 2 weapon was built by ______?",
+      "ans": {
+        "a": "United States of America",
+        "b": "Japan",
+        "c": "France",
+        "d": "Russia",
+        "correct_ans":"Russia"
+      }
+    },
+    {
+      "id": "2",
+      "q": "______ is the EEE400L response keyword",
+      "ans": {
+        "a": "Cast",
+        "b": "Sly",
+        "c": "Jew",
+        "d": "Weyrey",
+        "correct_ans":"Sly"
+      }
+    },
+    {
+      "id": "2",
+      "q": "______ is the EEE400L response keyword",
+      "ans": {
+        "a": "Cast",
+        "b": "Sly",
+        "c": "Jew",
+        "d": "Weyrey",
+        "correct_ans":"Sly"
+      }
+    },
+    {
+      "id": "2",
+      "q": "The photo Lord of the class?",
+      "ans": {
+        "a": "Harmony",
+        "b": "Triumph",
+        "c": "Peter",
+        "d": "Gareth",
+        "correct_ans":"Harmony"
+      }
+    },
+    {
+      "id": "2",
+      "q": "Which exam was allegedly recorded by a lecturer?",
+      "ans": {
+        "a": "EEE481",
+        "b": "EEE431",
+        "c": "EEE453",
+        "d": "EEE471",
+        "correct_ans":"EEE471"
+      }
+    },
+    {
+      "id": "2",
+      "q": "Which exam was there general sweating and gnashing of teeth?",
+      "ans": {
+        "a": "EEE481",
+        "b": "EEE451",
+        "c": "EEE433",
+        "d": "EEE471",
+        "correct_ans":"EEE481"
+      }
+    },
+    {
+      "id": "2",
+      "q": "Which student cried in law night class?",
+      "ans": {
+        "a": "Izinyon",
+        "b": "Kelvin",
+        "c": "Precious",
+        "d": "Osasere",
+        "correct_ans":"Kelvin"
+      }
+    },
+    {
+      "id": "2",
+      "q": "A short boy Harmony was zoned by who?",
+      "ans": {
+        "a": "Rita",
+        "b": "Charity",
+        "c": "Patience",
+        "d": "Lola",
+        "correct_ans":"Patience"
+      }
+    }
   ]
 }
