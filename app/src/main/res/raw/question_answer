@@ -120,6 +120,293 @@
         "d": "Lola",
         "correct_ans":"Patience"
       }
+    },
+    {
+      "id": "2",
+      "q": "Who is Assurance’s one true lover?",
+      "ans": {
+        "a": "Valentino",
+        "b": "Osasere",
+        "c": "Izinyon",
+        "d": "JMike",
+        "correct_ans":"Valentino"
+      }
+    },
+    {
+      "id": "2",
+      "q": "Yoruba warlord Kenny was terribly zoned by who?",
+      "ans": {
+        "a": "Lola",
+        "b": "Awoyeye",
+        "c": "Osato",
+        "d": "Ajoke",
+        "correct_ans":"Ajoke"
+      }
+    },
+    {
+      "id": "2",
+      "q": "What is the name of the ponzi Small Paul introduced to the class on the board?",
+      "ans": {
+        "a": "MMM",
+        "b": "Helping Hands",
+        "c": "ICharity",
+        "d": "Twinkas",
+        "correct_ans":"Helping Hands"
+      }
+    },
+    {
+      "id": "2",
+      "q": "The Longest drawn online saga was between?",
+      "ans": {
+        "a": "Lola and Tobe",
+        "b": "Kelvin and Kenny",
+        "c": "Millenium and Kelvin",
+        "d": "Kenny and Gareth",
+        "correct_ans":"Kenny and Gareth"
+      }
+    },
+    {
+      "id": "2",
+      "q": "Which course did all the students boycott cause of election campaign?",
+      "ans": {
+        "a": "EEE433",
+        "b": "EEE431",
+        "c": "EEE481",
+        "d": "EEE451",
+        "correct_ans":"EEE433"
+      }
+    },
+    {
+      "id": "2",
+      "q": "Which lecturer analyzed Donald’s Trump winning strategy in class?",
+      "ans": {
+        "a": "Engr Moses",
+        "b": "Engr Bello",
+        "c": "Engr Emma",
+        "d": "Engr Greg",
+        "correct_ans":"Engr Bello"
+      }
+    },
+    {
+      "id": "2",
+      "q": "Who is the most kill joy personality of the class on whatsapp?",
+      "ans": {
+        "a": "Evelyn",
+        "b": "Osjad",
+        "c": "Yusuf",
+        "d": "Gareth",
+        "correct_ans":"Yusuf"
+      }
+    },
+    {
+      "id": "2",
+      "q": "The make up outlook of the class?",
+      "ans": {
+        "a": "Evelyn",
+        "b": "Jennifer",
+        "c": "Rita",
+        "d": "Lola",
+        "correct_ans":"Lola"
+      }
+    },
+    {
+      "id": "2",
+      "q": "Which female member of the class made it big on Icharity?",
+      "ans": {
+        "a": "Evelyn",
+        "b": "Jennifer",
+        "c": "Ajoke",
+        "d": "Osato",
+        "correct_ans":"Ajoke"
+      }
+    },
+    {
+      "id": "2",
+      "q": "Which lecturer came to class 1hour 45minutes late and stopped others from entering the class afterwards?",
+      "ans": {
+        "a": "Engr Onwah",
+        "b": "Engr Akpkepe",
+        "c": "Engr Omoze",
+        "d": "Engr Greg",
+        "correct_ans":"Engr Omoze"
+      }
+    },
+    {
+      "id": "2",
+      "q": "Member of the class to win 1st Pes challenge?",
+      "ans": {
+        "a": "Gareth",
+        "b": "Tony",
+        "c": "Oshioke",
+        "d": "Peter",
+        "correct_ans":"Oshioke"
+      }
+    },
+    {
+      "id": "2",
+      "q": "The publicly true but privately false couple",
+      "ans": {
+        "a": "Prince and Sophia",
+        "b": "Harmony and Patience",
+        "c": "Raphael and Evelyn",
+        "d": "Obeto and Jennifer",
+        "correct_ans":"Prince and Sophia"
+      }
+    },
+    {
+      "id": "2",
+      "q": "The greatest ancestor of the class?",
+      "ans": {
+        "a": "Momodu",
+        "b": "Tega",
+        "c": "Jeremiah",
+        "d": "Gareth",
+        "correct_ans":"Gareth"
+      }
+    },
+    {
+      "id": "2",
+      "q": "The one who records the sleeping activities of others?",
+      "ans": {
+        "a": "John",
+        "b": "Kehinde",
+        "c": "Assurance",
+        "d": "Chris",
+        "correct_ans":"Kehinde"
+      }
+    },
+    {
+      "id": "2",
+      "q": "The boy zoned by Charity Audu?",
+      "ans": {
+        "a": "Simeon",
+        "b": "Chris",
+        "c": "Marvelous",
+        "d": "Jonathan",
+        "correct_ans":"Chris"
+      }
+    },
+    {
+      "id": "2",
+      "q": "The most public class sleeper?",
+      "ans": {
+        "a": "Osasere",
+        "b": "Victor",
+        "c": "Eyebira",
+        "d": "Sammy",
+        "correct_ans":"Victor"
+      }
+    },
+    {
+      "id": "2",
+      "q": "What is “practical relevance?”",
+      "ans": {
+        "a": "Name",
+        "b": "Slang",
+        "c": "Both",
+        "d": "None",
+        "correct_ans":"Both"
+      }
+    },
+    {
+      "id": "2",
+      "q": "Refused to wee during an exam after being told to go outside to do it?",
+      "ans": {
+        "a": "Kadei",
+        "b": "Joshua",
+        "c": "Fagba",
+        "d": "Osayi",
+        "correct_ans":"Kadei"
+      }
+    },
+    {
+      "id": "2",
+      "q": "The title of the inscription on Kelvin’s lemon green shirt?",
+      "ans": {
+        "a": "Strive Less",
+        "b": "Strive More",
+        "c": "Strive at",
+        "d": "Strive For",
+        "correct_ans":"Strive for"
+      }
+    },
+    {
+      "id": "2",
+      "q": "______, despite his chest, the sound of being swore at by Kenny's blood scared him?",
+      "ans": {
+        "a": "Joshua",
+        "b": "Tega",
+        "c": "Daniel",
+        "d": "Timothy",
+        "correct_ans":"Tega"
+      }
+    },
+    {
+      "id": "2",
+      "q": "What happened to Joshua while trying to mimic Osasere’s night class sleeping pattern?",
+      "ans": {
+        "a": "He slipped and died",
+        "b": "He was knocked down",
+        "c": "The desk broke and he fell on the floor",
+        "d": "His trousers fell off",
+        "correct_ans":"The desk broke and he fell on the floor"
+      }
+    },
+    {
+      "id": "2",
+      "q": "What caused Joshua’s problems after trying to mimic Osasere’s sleeping pattern?",
+      "ans": {
+        "a": "Large Bending Moment",
+        "b": "LArge Torque",
+        "c": "Little Equilibrium",
+        "d": "Excess Weight",
+        "correct_ans":"Large Bending Moment"
+      }
+    },
+    {
+      "id": "2",
+      "q":  "In which column of DO3 did Joshua try to mimic Osasere’s sleeping pattern?",
+      "ans": {
+        "a": "Middle",
+        "b": "Left",
+        "c": "Right",
+        "d": "All",
+        "correct_ans":"Middle"
+      }
+    },
+    {
+      "id": "2",
+      "q":  "Which course at one time had it's attendance list torn by the students?",
+      "ans": {
+        "a": "ELA401",
+        "b": "CED400",
+        "c": "EEE431",
+        "d": "EEE473",
+        "correct_ans":"EEE431"
+      }
+    },
+    {
+      "id": "2",
+      "q":  "Which course was Henry’s name written on attendance for him but it was eventually cancelled cause he was absent?",
+      "ans": {
+        "a": "ELA401",
+        "b": "EEE473",
+        "c": "EEE451",
+        "d": "CED400",
+        "correct_ans":"EEE451"
+      }
+    },
+    {
+      "id": "2",
+      "q":  "What is the percentage of students you think scored below 3 marks in EEE451(Dr Pat) test?",
+      "ans": {
+        "a": "70",
+        "b": "75",
+        "c": "80",
+        "d": "98",
+        "correct_ans":"80"
+      }
     }
+
   ]
 }

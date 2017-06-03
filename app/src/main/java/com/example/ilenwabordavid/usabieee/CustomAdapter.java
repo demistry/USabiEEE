@@ -37,7 +37,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
     @Override
     public int getItemCount() {
 
-        return data.size();
+        return 10;
     }
     class ViewHolder extends RecyclerView.ViewHolder{
         private TextView textView;
