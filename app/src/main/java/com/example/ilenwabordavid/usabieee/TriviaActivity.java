@@ -12,6 +12,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
@@ -63,6 +64,7 @@ public class TriviaActivity extends AppCompatActivity {
                        ques.put("optionC", optionC);
                        ques.put("optionD", optionD);
                    data.add(ques);
+                   Collections.shuffle(data);
                }
 
            } catch (JSONException json) {
