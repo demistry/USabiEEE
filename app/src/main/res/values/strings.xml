@@ -21,6 +21,29 @@
         <item>E</item>
         <item>F</item>
     </string-array>
+    <string name="Question1">Which course was there general test failure despite the whole class copying each other? </string>
+    <string-array name="Options1">
+        <item>EEE451 </item>
+        <item>EEE433</item>
+        <item>EEE471 </item>
+        <item>EEE453 </item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <string name="calculate">CALCULATE GP</string>
     <string name="eee431Description">ELECTRICAL MACHINES 2\n This Course is 3units. It covers Synchronous Machines, Design of Transformers and Rotating Machines, also covers Alternators.\n Lecturer1-Engr Osaretin\nLecturer2-Engr Idiaghe</string>
     <string name="eee433Description">ENERGY GENERATION, DISTRIBUTION AND UTILIZATION\n This Course is 3units. Scope covers Generation of Electrical Energy, its transmission over long distances and finally how it is utilized at the end point.\n Lecturer1-Engr Greg\n Lecturer2-Engr Emmanuel\n Lecturer3-Engr Onwah</string>
