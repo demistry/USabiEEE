@@ -1,0 +1,34 @@
+{
+  "questions": [
+
+    {
+      "q": "Which course was there general test failure despite the whole class copying each other?",
+      "ans": {
+        "a": "EEE453",
+        "b": "EEE471",
+        "c": "EEE473",
+        "d": "CED400"
+      }
+    },
+    {
+      "id":"1",
+      "q": "Which RCF female member of the class scored 0.5 out of 25 in EEE451 test?",
+      "ans": {
+        "a": "Charity",
+        "b": "Osato",
+        "c": "Ajoke",
+        "d": "Evelyn"
+      }
+    },
+    {
+      "id":"2",
+      "q": "Which student was not able to win at the polls despite a raucous support?",
+      "ans": {
+        "a": "Small Paul",
+        "b": "Kenny",
+        "c": "Kelvin",
+        "d": "Progress"
+      }
+    }
+  ]
+}
