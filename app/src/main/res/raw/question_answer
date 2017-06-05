@@ -298,6 +298,17 @@
       }
     },
     {
+          "id": "2",
+          "q": "Oshioke's secret male admirer?",
+          "ans": {
+            "a": "Kenny",
+            "b": "Kevin",
+            "c": "Johnny",
+            "d": "Osasere",
+            "correct_ans":"Johnny"
+          }
+        },
+    {
       "id": "2",
       "q": "What is “practical relevance?”",
       "ans": {
