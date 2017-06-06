@@ -13,6 +13,9 @@
     <string name="EEE433">EEE433 GRADE</string>
     <string name="CED400">CED400 GRADE</string>
     <string name="CourseTitle">Course Info</string>
+    <string name="trivia">Trivia</string>
+    <string name="result">Result</string>
+    <string name="calculator">Calculator</string>
     <string-array name="Grades">
         <item>A</item>
         <item>B</item>

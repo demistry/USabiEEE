@@ -16,8 +16,5 @@ tools:context="com.example.ilenwabordavid.usabieee.TriviaActivity">
         >
 
     </android.support.v7.widget.RecyclerView>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text= "Submit" />
+
     </LinearLayout>

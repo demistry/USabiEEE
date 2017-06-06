@@ -1,13 +1,17 @@
 package com.example.ilenwabordavid.usabieee;
 
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -25,6 +29,7 @@ public class TriviaActivity extends AppCompatActivity {
     private List<String> radio = new ArrayList<String>();
     private RecyclerView mRecycler;
     private int count=0;
+    private String name;
     public String loadJSONFromAsset() {
         String son;
         try{
@@ -50,6 +55,8 @@ public class TriviaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.trivia_activity);
+        Bundle receivedIntent= getIntent().getExtras();
+        name= receivedIntent.getString("Username");
         List<HashMap<String,String>> data = new ArrayList();
 
            try {
@@ -97,8 +104,17 @@ public class TriviaActivity extends AppCompatActivity {
         mRecycler.setLayoutManager(new LinearLayoutManager(TriviaActivity.this));
         mRecycler.setAdapter(myOwn);
     }
-
-
-
-
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.mymenu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+    public boolean onOptionsItemSelected(MenuItem menuItem){
+        if (menuItem.getItemId()==R.id.mybutton){
+            Intent intent = new Intent(TriviaActivity.this,QuizResultActivity.class);
+            intent.putExtra("Score",count);
+            intent.putExtra("Username",name);
+            startActivity(intent);
+        }
+        return super.onOptionsItemSelected(menuItem);
+    }
 }

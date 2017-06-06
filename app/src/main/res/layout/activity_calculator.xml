@@ -55,7 +55,7 @@
                 android:id="@+id/eee433"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/EEE431"
+                android:text="@string/EEE433"
                 android:textSize="16sp" />
 
             <Spinner
@@ -122,7 +122,7 @@
                 android:id="@+id/eee451"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/EEE431"
+                android:text="@string/EEE451"
                 android:textSize="16sp" />
 
             <Spinner
@@ -151,7 +151,7 @@
                 android:id="@+id/eee453"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/EEE431"
+                android:text="@string/EEE453"
                 android:textSize="16sp" />
 
             <Spinner

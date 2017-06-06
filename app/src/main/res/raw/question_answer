@@ -288,13 +288,13 @@
     },
     {
           "id": "2",
-          "q": "Oshioke's secret male admirer?",
+          "q": "Valentino's secret male admirer?",
           "ans": {
-            "a": "Kenny",
-            "b": "Kevin",
-            "c": "Johnny",
-            "d": "Osasere",
-            "correct_ans":"Johnny"
+            "a": "Peter",
+            "b": "GCR",
+            "c": "Efe Chris",
+            "d": "Odiase Osasere",
+            "correct_ans":"Odiase Osasere"
           }
         },
     {
@@ -449,6 +449,17 @@
         "c": "Iron Pant",
         "d": "Broken Belt",
         "correct_ans":"Rugged Jean"
+      }
+    },
+    {
+      "id": "2",
+      "q":  "Jennifer was asked to come out and apologize by Engr Bello for doing one of the following?",
+      "ans": {
+        "a": "Laughing hysterically at the back",
+        "b": "Making a phone call in class",
+        "c": "Doing her ELA report",
+        "d": "Admiring Oshioke from afar",
+        "correct_ans":"Making a phone call in class"
       }
     }
 

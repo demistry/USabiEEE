@@ -4,20 +4,35 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/src_bg"
+        android:roundIcon="@drawable/src_bg"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity">
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TriviaActivity" />
-        <activity android:name=".ResultActivity" />
-        <activity android:name=".Calculator" />
+        <activity
+            android:name=".TriviaActivity"
+            android:label="@string/trivia"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/result"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Calculator"
+            android:label="@string/calculator"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".QuizResultActivity"
+            android:screenOrientation="portrait"
+            android:label="Result">
+        </activity>
     </application>
 
 </manifest>
