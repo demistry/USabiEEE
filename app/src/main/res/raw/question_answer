@@ -461,6 +461,28 @@
         "d": "Admiring Oshioke from afar",
         "correct_ans":"Making a phone call in class"
       }
+    },
+    {
+      "id": "2",
+      "q": "What did Marcel do wrong and he was caught after doing it in EEE376 exam?",
+      "ans": {
+        "a": "Slapped a Lecturer",
+        "b": "Forgot his shoe in Tega's bag",
+        "c": "Insulted Jennifer",
+        "d": "Carried a full notebook into the hall",
+        "correct_ans":"Carried a full notebook into the hall"
+      }
+    },
+    {
+      "id": "2",
+      "q": "Oshioke was accused of having poor physics background by ",
+      "ans": {
+        "a": "Engr Akpekpe",
+        "b": "Engr Patrick",
+        "c": "Engr Idiaghe",
+        "d": "Engr Abdul-Rahman",
+        "correct_ans":"Engr Patrick"
+      }
     }
 
   ]
