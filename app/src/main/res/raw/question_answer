@@ -4,22 +4,22 @@
     {
       "q": "Which course was there general test failure despite the whole class copying each other?",
       "ans": {
-        "a": "EEE453",
-        "b": "EEE471",
-        "c": "EEE473",
+        "a": "EE453",
+        "b": "EE471",
+        "c": "EE473",
         "d": "CED400",
-        "correct_ans":"EEE471"
+        "correct_ans":"EE471"
       }
     },
     {
       "id":"1",
       "q": "Which RCF female member of the class scored 0.5 out of 25 in EEE451 test?",
       "ans": {
-        "a": "Charity",
-        "b": "Osato",
-        "c": "Ajoke",
-        "d": "Evelyn",
-        "correct_ans":"Ajoke"
+        "a": "Audu Charity",
+        "b": "Ero Osato",
+        "c": "Asunmonu Ajoke",
+        "d": "Ugbe Evelyn",
+        "correct_ans":"Asunmonu Ajoke"
       }
     },
     {
@@ -42,17 +42,6 @@
         "c": "France",
         "d": "Russia",
         "correct_ans":"Russia"
-      }
-    },
-    {
-      "id": "2",
-      "q": "______ is the EEE400L response keyword",
-      "ans": {
-        "a": "Cast",
-        "b": "Sly",
-        "c": "Jew",
-        "d": "Weyrey",
-        "correct_ans":"Sly"
       }
     },
     {
@@ -104,10 +93,10 @@
       "q": "Which student cried in law night class?",
       "ans": {
         "a": "Izinyon",
-        "b": "Kelvin",
+        "b": "Kester",
         "c": "Precious",
-        "d": "Osasere",
-        "correct_ans":"Kelvin"
+        "d": "Osayi",
+        "correct_ans":"Kester"
       }
     },
     {
@@ -139,8 +128,8 @@
         "a": "Lola",
         "b": "Awoyeye",
         "c": "Osato",
-        "d": "Ajoke",
-        "correct_ans":"Ajoke"
+        "d": "Ajoke ",
+        "correct_ans":"Ajoke "
       }
     },
     {
@@ -169,11 +158,11 @@
       "id": "2",
       "q": "Which course did all the students boycott cause of election campaign?",
       "ans": {
-        "a": "EEE433",
-        "b": "EEE431",
-        "c": "EEE481",
-        "d": "EEE451",
-        "correct_ans":"EEE433"
+        "a": "EE433",
+        "b": "EE431",
+        "c": "EE481",
+        "d": "EE451",
+        "correct_ans":"EE433"
       }
     },
     {
@@ -205,19 +194,19 @@
         "a": "Evelyn",
         "b": "Jennifer",
         "c": "Rita",
-        "d": "Lola",
-        "correct_ans":"Lola"
+        "d": "Omolola",
+        "correct_ans":"Omolola"
       }
     },
     {
       "id": "2",
       "q": "Which female member of the class made it big on Icharity?",
       "ans": {
-        "a": "Evelyn",
-        "b": "Jennifer",
-        "c": "Ajoke",
-        "d": "Osato",
-        "correct_ans":"Ajoke"
+        "a": "Ugbe",
+        "b": "Echenim",
+        "c": "Asunmonu",
+        "d": "Ero",
+        "correct_ans":"Asunmonu"
       }
     },
     {
@@ -325,9 +314,9 @@
       "ans": {
         "a": "Strive Less",
         "b": "Strive More",
-        "c": "Strive at",
+        "c": "Strive At",
         "d": "Strive For",
-        "correct_ans":"Strive for"
+        "correct_ans":"Strive For"
       }
     },
     {
@@ -335,10 +324,10 @@
       "q": "______, despite his chest, the sound of being swore at by Kenny's blood scared him?",
       "ans": {
         "a": "Joshua",
-        "b": "Tega",
+        "b": "Odiete",
         "c": "Daniel",
         "d": "Timothy",
-        "correct_ans":"Tega"
+        "correct_ans":"Odiete"
       }
     },
     {
@@ -357,7 +346,7 @@
       "q": "What caused Joshua’s problems after trying to mimic Osasere’s sleeping pattern?",
       "ans": {
         "a": "Large Bending Moment",
-        "b": "LArge Torque",
+        "b": "Large Torque",
         "c": "Little Equilibrium",
         "d": "Excess Weight",
         "correct_ans":"Large Bending Moment"
@@ -405,6 +394,50 @@
         "c": "80",
         "d": "98",
         "correct_ans":"80"
+      }
+    },
+    {
+      "id": "2",
+      "q":  "Estimate the number of tests postponed by Progress",
+      "ans": {
+        "a": "5",
+        "b": "3",
+        "c": "8",
+        "d": "10",
+        "correct_ans":"5"
+      }
+    },
+    {
+      "id": "2",
+      "q":  "Please be guided is a unique statement mostly attributed to one of the following",
+      "ans": {
+        "a": "Madam Osato",
+        "b": "Madam Blessing",
+        "c": "Madam Patience",
+        "d": "Madam Evelyn",
+        "correct_ans":"Madam Evelyn"
+      }
+    },
+    {
+      "id": "2",
+      "q":  "Which ELA course did Osasere sly JMike and cause him to fail?",
+      "ans": {
+        "a": "ELA201",
+        "b": "ELA301",
+        "c": "ELA302",
+        "d": "ELA202",
+        "correct_ans":"ELA302"
+      }
+    },
+    {
+      "id": "2",
+      "q":  "Kenny's trademark outfit",
+      "ans": {
+        "a": "Rugged Jean",
+        "b": "Rubber Slippers",
+        "c": "Iron Pant",
+        "d": "Broken Belt",
+        "correct_ans":"Rugged Jean"
       }
     }
 

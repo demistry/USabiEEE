@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:id="@+id/caL"
+    >
     <android.support.v7.widget.CardView
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -10,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp">
         <RelativeLayout
+            android:id="@+id/cardviewRel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <TextView
@@ -19,7 +22,7 @@
                 android:layout_alignParentTop="true"/>
             />
             <RadioGroup
-                android:id="@+id/radio"
+               android:id="@+id/rad"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -50,5 +53,7 @@
 
         </RelativeLayout>
     </android.support.v7.widget.CardView>
+
+
 
 </LinearLayout>

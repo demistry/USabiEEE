@@ -8,15 +8,18 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class LoginActivity extends AppCompatActivity {
-
+    private Button quizButton;
+    private Button calculatorButton;
+    private EditText username;
+    private String userName;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_activity);
-        Button quizButton = (Button) findViewById(R.id.quiz_button);
-        final Button calculatorButton= (Button) findViewById(R.id.calc_button);
-        EditText username = (EditText) findViewById(R.id.username);
-        final String userName = username.getText().toString();
+        quizButton = (Button) findViewById(R.id.quiz_button);
+        calculatorButton= (Button) findViewById(R.id.calc_button);
+        username = (EditText) findViewById(R.id.username);
+        userName = username.getText().toString();
 
         quizButton.setOnClickListener(
                 new Button.OnClickListener(){
