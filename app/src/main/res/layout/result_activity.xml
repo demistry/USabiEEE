@@ -16,9 +16,8 @@
     <TextView
         android:id="@+id/resultDisplay"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:text = "Bros u no sabi sha"
-        android:layout_weight="0.5"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold" />
     <TextView
